@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "logfire-bug-reproduction"
+version = "0.1.0"
+description = ""
+authors = ["MinJune Kim <qria@qria.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+anthropic = "^0.40.0"
+openai = "^1.57.4"
+logfire = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
